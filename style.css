@@ -1,0 +1,55 @@
+:root {
+  --primary-green: #2ecc71;
+  --dark-green: #1e824c;
+  --light-green: #a3e4d7;
+  --background: #f9f9f9;
+  --text-color: #2c3e50;
+  --hover-green: #27ae60;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--background);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: var(--dark-green);
+}
+
+a {
+  color: var(--primary-green);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hover-green);
+}
+
+.navbar, footer {
+  background-color: var(--dark-green);
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.section-alt {
+  background-color: var(--light-green);
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+
+.button-primary {
+  background-color: var(--primary-green);
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background-color: var(--hover-green);
+}
