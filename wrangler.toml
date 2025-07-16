@@ -1,0 +1,6 @@
+name = "pixelperfect-megamed"
+main = "src/index.js"
+compatibility_date = "2025-07-16"
+kv_namespaces = [
+  { binding = "COUNTER_PIXELPERFECT_MEGAMED", id = "3f37f794965f4003b3be1d85137c7a73" }
+]
