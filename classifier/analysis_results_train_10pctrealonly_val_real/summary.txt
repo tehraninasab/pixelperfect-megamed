@@ -1,0 +1,59 @@
+======================================
+efficientnet-b0 Per-Disease Performance Summary
+======================================
+
+SEPARATE ANALYSIS MODE
+The analysis has been separated into pretrained and non-pretrained models.
+
+Files created:
+
+RAW DATA:
+- efficientnet-b0_per_disease_metrics_all.csv (All configurations)
+- efficientnet-b0_per_disease_metrics_pretrained.csv (Pretrained models only)
+- efficientnet-b0_per_disease_metrics_non_pretrained.csv (Non-pretrained models only)
+
+REPORTS:
+- efficientnet-b0_per_disease_summary_pretrained.md (Pretrained analysis)
+- efficientnet-b0_per_disease_summary_non_pretrained.md (Non-pretrained analysis)
+
+INDIVIDUAL DISEASE CSVs:
+Pretrained models:
+  - efficientnet-b0_Cardiomegaly_pretrained.csv
+  - efficientnet-b0_Lung Opacity_pretrained.csv
+  - efficientnet-b0_Edema_pretrained.csv
+  - efficientnet-b0_No Finding_pretrained.csv
+  - efficientnet-b0_Pneumothorax_pretrained.csv
+  - efficientnet-b0_Pleural Effusion_pretrained.csv
+
+Non-pretrained models:
+  - efficientnet-b0_Cardiomegaly_non_pretrained.csv
+  - efficientnet-b0_Lung Opacity_non_pretrained.csv
+  - efficientnet-b0_Edema_non_pretrained.csv
+  - efficientnet-b0_No Finding_non_pretrained.csv
+  - efficientnet-b0_Pneumothorax_non_pretrained.csv
+  - efficientnet-b0_Pleural Effusion_non_pretrained.csv
+
+COMPARISON CSVs:
+- efficientnet-b0_disease_comparison_pretrained.csv
+- efficientnet-b0_disease_comparison_non_pretrained.csv
+
+VISUALIZATIONS:
+Pretrained models:
+  - efficientnet-b0_f1_by_disease_pretrained.png
+  - efficientnet-b0_auroc_by_disease_pretrained.png
+  - efficientnet-b0_f1_heatmap_pretrained.png
+  - efficientnet-b0_best_size_frequency_pretrained.png
+
+Non-pretrained models:
+  - efficientnet-b0_f1_by_disease_non_pretrained.png
+  - efficientnet-b0_auroc_by_disease_non_pretrained.png
+  - efficientnet-b0_f1_heatmap_non_pretrained.png
+  - efficientnet-b0_best_size_frequency_non_pretrained.png
+
+Comparison visualizations:
+  - efficientnet-b0_f1_comparison_pretrained_vs_non.png (side-by-side)
+  - efficientnet-b0_f1_overlay_comparison.png (overlapping lines)
+  - efficientnet-b0_f1_improvement_heatmap.png (improvement with pretraining)
+
+Analysis completed successfully!
+Check the markdown reports for detailed insights.

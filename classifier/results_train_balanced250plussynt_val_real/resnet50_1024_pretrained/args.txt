@@ -1,0 +1,14 @@
+train_csv: datasets/chexpert_highres_synthetic/balanced_class_datasets/balanced_real_250_plus_synthetic.csv
+validation_csv: datasets/chexpert_highres/visualCheXbert_val.csv
+test_csv: datasets/chexpert_highres/visualCheXbert_test.csv
+real_root: /scratch/a/amarkr1/data
+synthetic_root: .
+output_dir: classifier/results_train_balanced250plussynt_val_real/resnet50_1024_pretrained
+batch_size: 16
+learning_rate: 0.0001
+num_epochs: 10
+num_workers: 4
+base_classifier: resnet50
+pretrained: True
+debug: False
+image_size: 1024

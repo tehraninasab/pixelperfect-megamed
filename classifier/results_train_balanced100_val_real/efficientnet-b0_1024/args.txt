@@ -1,0 +1,14 @@
+train_csv: datasets/chexpert_highres_synthetic/balanced_class_datasets/balanced_real_100_per_class.csv
+validation_csv: datasets/chexpert_highres/visualCheXbert_val.csv
+test_csv: datasets/chexpert_highres/visualCheXbert_test.csv
+real_root: /scratch/a/amarkr1/data
+synthetic_root: .
+output_dir: classifier/results_train_balanced100_val_real/efficientnet-b0_1024
+batch_size: 16
+learning_rate: 0.0001
+num_epochs: 10
+num_workers: 4
+base_classifier: efficientnet-b0
+pretrained: False
+debug: False
+image_size: 1024

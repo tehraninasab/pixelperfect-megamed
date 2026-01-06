@@ -1,0 +1,31 @@
+Disease,Metric,1024px
+Cardiomegaly,Accuracy,0.7629
+Cardiomegaly,AUROC,0.8376
+Cardiomegaly,Precision,0.8076
+Cardiomegaly,Recall,0.7758
+Cardiomegaly,F1,0.7914
+Lung Opacity,Accuracy,0.8293
+Lung Opacity,AUROC,0.8905
+Lung Opacity,Precision,0.8937
+Lung Opacity,Recall,0.8656
+Lung Opacity,F1,0.8795
+Edema,Accuracy,0.7523
+Edema,AUROC,0.8331
+Edema,Precision,0.7543
+Edema,Recall,0.6912
+Edema,F1,0.7214
+No Finding,Accuracy,0.8863
+No Finding,AUROC,0.9003
+No Finding,Precision,0.5666
+No Finding,Recall,0.5440
+No Finding,F1,0.5551
+Pneumothorax,Accuracy,0.8755
+Pneumothorax,AUROC,0.7458
+Pneumothorax,Precision,0.4777
+Pneumothorax,Recall,0.1429
+Pneumothorax,F1,0.2200
+Pleural Effusion,Accuracy,0.7715
+Pleural Effusion,AUROC,0.8467
+Pleural Effusion,Precision,0.7714
+Pleural Effusion,Recall,0.7544
+Pleural Effusion,F1,0.7628

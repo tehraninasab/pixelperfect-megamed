@@ -1,0 +1,14 @@
+train_csv: datasets/chexpert_highres_synthetic/real_only_10pct.csv
+validation_csv: datasets/chexpert_highres/visualCheXbert_val.csv
+test_csv: datasets/chexpert_highres/visualCheXbert_test.csv
+real_root: /scratch/a/amarkr1/data
+synthetic_root: .
+output_dir: classifier/results_train_10pctrealonly_val_real/resnet50_1024
+batch_size: 16
+learning_rate: 0.0001
+num_epochs: 10
+num_workers: 4
+base_classifier: resnet50
+pretrained: False
+debug: False
+image_size: 1024
