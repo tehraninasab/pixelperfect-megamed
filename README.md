@@ -27,7 +27,7 @@ The trained LoRA weights for Pixel Perfect MegaMed are available on Hugging Face
 
 These weights are designed to be used with the Stable Diffusion XL base model.
 
-# 🚀 Usage
+## 🚀 Usage
 **1. Install dependencies**
 ```
 pip install diffusers transformers accelerate torch
@@ -89,7 +89,7 @@ image = pipe(
 image.save("megamed_demofusion.png")
 ```
 
-# 📚 Citation
+## 📚 Citation
 
 If you use **Pixel Perfect MegaMed** in your research, please cite:
 
@@ -104,7 +104,7 @@ If you use **Pixel Perfect MegaMed** in your research, please cite:
 }
 ```
 
-# 📜 License
+## 📜 License
 
 The **Pixel Perfect MegaMed LoRA weights** are released under the  
 **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
@@ -113,7 +113,7 @@ See the LICENSE file for details.
 
 Because this work builds upon **Stable Diffusion XL**, users must also comply with the Stable Diffusion XL license (CreativeML OpenRAIL-M).
 
-# ⚠️ Disclaimer
+## ⚠️ Disclaimer
 Pixel Perfect MegaMed is a research prototype intended for academic and research purposes only. 
 
 The generated images are synthetic and should not be used for clinical diagnosis, medical decision-making, or patient care.
