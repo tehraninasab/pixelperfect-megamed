@@ -112,3 +112,12 @@ The **Pixel Perfect MegaMed LoRA weights** are released under the
 See the LICENSE file for details.
 
 Because this work builds upon **Stable Diffusion XL**, users must also comply with the Stable Diffusion XL license (CreativeML OpenRAIL-M).
+
+# ⚠️ Disclaimer
+Pixel Perfect MegaMed is a research prototype intended for academic and research purposes only. 
+
+The generated images are synthetic and should not be used for clinical diagnosis, medical decision-making, or patient care.
+
+This project is built upon publicly available datasets including CheXpert and MIMIC-CXR, and uses the Stable Diffusion XL architecture. Users must comply with the respective dataset and model licenses when using this work.
+
+The authors and contributors make no guarantees regarding the medical validity, safety, or clinical applicability of the generated images, and assume no responsibility for any use outside of research contexts.
