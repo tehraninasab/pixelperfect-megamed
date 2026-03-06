@@ -5,7 +5,7 @@
   <a href="https://tehraninasab.github.io/pixelperfect-megamed/">🌐 Project Page</a> •
   <a href="https://www.arxiv.org/abs/2507.12698">📄 arXiv</a> •
   <a href="https://link.springer.com/chapter/10.1007/978-3-032-05472-2_27">📘 Springer</a> •
-  <a href="https://huggingface.co/tehraninasab/pixelperfect-megamed-lora">🤗 Hugging Face</a>
+  <a href="https://huggingface.co/tehraninasab/pixelperfect-megamed-lora">🤗 Hugging Face</a> •
   <a href="https://huggingface.co/spaces/tehraninasab/pixelperfect-megamed-demo">🚀 Demo</a>
 </p>
 
