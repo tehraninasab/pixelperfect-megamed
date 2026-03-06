@@ -28,12 +28,12 @@ The trained LoRA weights for Pixel Perfect MegaMed are available on Hugging Face
 These weights are designed to be used with the Stable Diffusion XL base model.
 
 # 🚀 Usage
-1. Install dependencies
+**1. Install dependencies**
 ```
 pip install diffusers transformers accelerate torch
 ```
 
-2. Load the model with LoRA weights
+**2. Load the model with LoRA weights**
 ```
 import torch
 from diffusers import StableDiffusionXLPipeline
@@ -58,7 +58,7 @@ image = pipe(
 image.save("sample.png")
 ```
 
-3. Ultra-high resolution generation
+**3. Ultra-high resolution generation**
 
 Pixel Perfect MegaMed supports ultra-high-resolution synthesis (up to 2048×2048) using DemoFusion.
 
