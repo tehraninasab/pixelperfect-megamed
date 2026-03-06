@@ -109,18 +109,6 @@ If you use **Pixel Perfect MegaMed** in your research, please cite:
 The **Pixel Perfect MegaMed LoRA weights** are released under the  
 **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
 
-You are free to:
+See the LICENSE file for details.
 
-- Share — copy and redistribute the material
-- Adapt — remix, transform, and build upon the material
-
-Under the following terms:
-
-- **Attribution** — You must give appropriate credit to the authors.
-- **NonCommercial** — The material may not be used for commercial purposes.
-
-Because Pixel Perfect MegaMed is built on **Stable Diffusion XL**, users must also comply with the **Stable Diffusion XL license (CreativeML OpenRAIL-M)**.
-
-See:
-- https://creativecommons.org/licenses/by-nc/4.0/
-- https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0
+Because this work builds upon **Stable Diffusion XL**, users must also comply with the Stable Diffusion XL license (CreativeML OpenRAIL-M).
